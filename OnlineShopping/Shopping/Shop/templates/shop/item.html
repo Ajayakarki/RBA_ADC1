@@ -1,0 +1,8 @@
+{% for item in orderitems %}
+	<div style="border: 1px solid"><p>Custommer id = {{item.Customer_Id_id}}</p>
+		<p>item = {{item.item}}</p>
+		<p>quantity = {{item.quantity}}</p>
+		<p>Price = {{item.item.Product_Price}}</p>
+
+	</div>
+{% endfor %}
