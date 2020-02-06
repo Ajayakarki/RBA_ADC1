@@ -19,7 +19,8 @@
           </div>
         <a href="{% url 'addtocart' product.id %}" class="btn btn-primary" style="margin-left:113px;">Add to cart</a>
         <a href="{% url 'removefromcart' product.id %}" class="btn btn-primary" style="margin-left:10px;">Remove cart</a>
-        <a href="{{product.Product_Image.url}}">Download Image</a>
+        <!-- <a href="{{product.Product_Image.url}}">Download Image</a> -->
+        <a href="/media/{{product.Product_Image}}" download>Download</a>
         {% endif %}
   <br>
   <br>
