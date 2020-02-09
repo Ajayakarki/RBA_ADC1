@@ -26,5 +26,8 @@ urlpatterns = [
     path('', include('Feedback.urls')),
     path('', include('Payment.urls')),
 
+    path('', include('RESTAPI.urls')),
+
+
 
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
