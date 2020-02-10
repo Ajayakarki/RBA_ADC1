@@ -63,11 +63,10 @@ padding: 2px 4px;
 <br>
 <br>
 <br>
-{% for i in orderitems %}
-{% if i.quantity >= 1 %}
+{% if orderitems %}
 <a href="/Checkout" class="check">makeorder</a>
 {% endif %}
-{% endfor %}
+
 <br>
 <br>
 <br>
