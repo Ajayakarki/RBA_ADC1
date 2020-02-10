@@ -31,17 +31,14 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
-    'Shop.apps.ShopConfig',
-    'Authentication.apps.AuthenticationConfig',
-    'Feedback.apps.FeedbackConfig',
     'Payment.apps.PaymentConfig',
+    'RESTAPI.apps.RestapiConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'RESTAPI',
 ]
 
 MIDDLEWARE = [
